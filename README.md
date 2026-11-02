@@ -1,6 +1,6 @@
 Developing a Simple Webserver
 ## Date:
-28.06.26
+29.06.26
 ## AIM:
 To develop a simple webserver to serve html pages and display the Windows Specifications of your Laptop.
 
