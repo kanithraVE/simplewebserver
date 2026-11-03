@@ -1,6 +1,6 @@
 Developing a Simple Webserver
 ## Date:
-28.06.26
+26.06.26
 ## AIM:
 To develop a simple webserver to serve html pages and display the Windows Specifications of your Laptop.
 
@@ -47,7 +47,7 @@ content = """
             <h2>KanithraVE</h2>
             <h2>26008403</h2>
         <table align="center" border="2">
-            <tr>
+        <tr>
             <td>device name</td>
             <td>kanithra</td>
         </tr>
@@ -84,8 +84,9 @@ content = """
             <td>No pen or touch input is available for this display</td>
         </tr>
         </table>
-    </body>
-    </html>
+        </body>
+    <head>
+</html>
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):

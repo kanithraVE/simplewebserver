@@ -7,7 +7,7 @@ content = """
             <h2>KanithraVE</h2>
             <h2>26008403</h2>
         <table align="center" border = "2">
-            <tr>
+        <tr>
             <td>device name</td>
             <td>kanithra</td>
         </tr>
