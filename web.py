@@ -2,7 +2,9 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
     <head>
-        <body align="center">
+        <title>laptop details</title>
+    </head>
+    <body align="center">
             <h1>laptop details</h1>
             <h2>KanithraVE</h2>
             <h2>26008403</h2>

@@ -42,7 +42,9 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
     <head>
-        <body align="center">
+        <title>laptop details</title>
+    </head>
+    <body align="center">
             <h1>laptop details</h1>
             <h2>KanithraVE</h2>
             <h2>26008403</h2>
@@ -84,8 +86,7 @@ content = """
             <td>No pen or touch input is available for this display</td>
         </tr>
         </table>
-        </body>
-    <head>
+    </body>
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):
@@ -102,7 +103,7 @@ httpd.serve_forever()
 ```
 ## OUTPUT:
 web page 
-![alt text](image.png)
+![alt text](image-2.png)
 server page
 ![alt text](image-1.png)
 ## RESULT:
