@@ -8,7 +8,7 @@ content = """
             <h1>laptop details</h1>
             <h2>KanithraVE</h2>
             <h2>26008403</h2>
-        <table align="center" border = "2">
+        <table align="center" border="2">
         <tr>
             <td>device name</td>
             <td>kanithra</td>
@@ -47,7 +47,7 @@ content = """
         </tr>
         </table>
     </body>
-    </html>
+</html>
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
